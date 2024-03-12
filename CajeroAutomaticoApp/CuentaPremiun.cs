@@ -9,7 +9,7 @@ namespace CajeroAutomaticoApp
 {
     public class CuentaPremiun : Cuenta
     {
-        public CuentaPremiun(string nombreCompleto)  : base()
+        public CuentaPremiun()  : base()
         {
             /*El constructor de la cuenta premiun 
              debe tener un monto
