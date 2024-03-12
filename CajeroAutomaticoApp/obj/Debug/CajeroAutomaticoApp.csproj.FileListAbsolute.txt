@@ -1,0 +1,14 @@
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\bin\Debug\CajeroAutomaticoApp.exe.config
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\bin\Debug\CajeroAutomaticoApp.exe
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\bin\Debug\CajeroAutomaticoApp.pdb
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.csproj.AssemblyReference.cache
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.csproj.CoreCompileInputs.cache
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.exe
+C:\Users\esdra\Desktop\University Works\Q1\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.pdb
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\bin\Debug\CajeroAutomaticoApp.exe.config
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\bin\Debug\CajeroAutomaticoApp.exe
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\bin\Debug\CajeroAutomaticoApp.pdb
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.csproj.AssemblyReference.cache
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.csproj.CoreCompileInputs.cache
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.exe
+C:\Users\esdra\Desktop\University\Q1-2024\Progra I\Proyecto Progra 101\ProyectoCajeroCSharpSolution\CajeroAutomaticoApp\obj\Debug\CajeroAutomaticoApp.pdb

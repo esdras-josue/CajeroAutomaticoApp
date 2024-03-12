@@ -10,7 +10,7 @@ namespace CajeroAutomaticoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Cajero Automatico");
+            
         }
     }
 }
