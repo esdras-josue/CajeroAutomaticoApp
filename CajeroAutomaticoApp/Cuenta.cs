@@ -11,17 +11,18 @@ namespace CajeroAutomaticoApp
         protected string nombreCompleto;
        //protected List<Usuario> usuarios;
         protected double saldo;
+        protected string tipo;
         protected double saldoMinimo;
         protected int idCuenta;
         protected int idPropietario;
         protected DateTime fechaCreacion;
 
-        public Cuenta()
+        public Cuenta( string tipo, double saldoMinimo)
         {
             //Usuarios = new List<Usuario>();
-            this.saldo += saldoMinimo;  
+            this.tipo = tipo;
+            this.saldo = saldoMinimo;  
         }
-
         public double Saldo
         {
             get { return saldo; }

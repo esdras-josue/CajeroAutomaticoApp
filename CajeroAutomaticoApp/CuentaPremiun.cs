@@ -14,7 +14,7 @@ namespace CajeroAutomaticoApp
             /*El constructor de la cuenta premiun 
              debe tener un monto
              minimo de 1500 lps*/
-             saldo = saldoMinimo;
+             saldo += saldoMinimo;
         } 
     }
 }

@@ -12,7 +12,7 @@ namespace CajeroAutomaticoApp
         {
             /*el constructor debe ser inicializado
             con un saldo minimo de 100*/
-            this.saldo = saldoMinimo;
+            this.saldo += saldoMinimo;
         }         
     }
 }
