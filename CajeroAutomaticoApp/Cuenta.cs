@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Server;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace CajeroAutomaticoApp
         protected int idCuenta;
         protected int idPropietario;
         protected DateTime fechaCreacion;
+        //public Usuario cliente;
 
         public Cuenta( string tipo, double saldoMinimo)
         {
@@ -26,12 +28,14 @@ namespace CajeroAutomaticoApp
         public double Saldo
         {
             get { return saldo; }
-            set { saldo += value; }
+          
         }
         public string NombreCompleto { get; set; }
         //public List<Usuario> Usuarios { get; set; }
         public int IdCuenta { get; set; }
         public int IdPropietario { get; set; }
+        public string Tipo {  get; set; }
+        public double SaldoMinimo { get; set; }
         public DateTime FechaCreacion { get; set; }
         
         public void Depositar(double deposito)

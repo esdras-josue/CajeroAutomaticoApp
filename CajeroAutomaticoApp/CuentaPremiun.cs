@@ -9,12 +9,13 @@ namespace CajeroAutomaticoApp
 {
     public class CuentaPremiun : Cuenta
     {
-        public CuentaPremiun()  : base()
+        public CuentaPremiun(string tipo, double saldoMinimo) : base(tipo,saldoMinimo)
         {
-            /*El constructor de la cuenta premiun 
-             debe tener un monto
+            /*El saldo minimo para que la cuenta premiun 
+             sea creada es de un monto
              minimo de 1500 lps*/
-             saldo += saldoMinimo;
+            this.saldo = saldoMinimo;
+            this.tipo = tipo;
         } 
     }
 }

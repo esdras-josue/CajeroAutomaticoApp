@@ -8,11 +8,12 @@ namespace CajeroAutomaticoApp
 {
     public class CuentaBasica : Cuenta
     {
-        public CuentaBasica() : base()
+        public CuentaBasica(string tipo, double saldoMinimo) : base(tipo,saldoMinimo)
         {
-            /*el constructor debe ser inicializado
-            con un saldo minimo de 100*/
-            this.saldo += saldoMinimo;
+            /*el saldo minimo para que la cuenta basica sea
+             creada es de 100 lps*/
+            this.tipo = tipo;
+            this.saldo = saldoMinimo;
         }         
     }
 }
