@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|c:\\users\\esdra\\desktop\\university\\q1-2024\\progra i\\proyecto progra 101\\proyectocajerocsharpsolution\\cajeroautomaticoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\clasesusuario\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\clasesusuario\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\clasescuentas\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\clasescuentas\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\clasescuentas\\cuentapremiun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\clasescuentas\\cuentapremiun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\clasesusuario\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\clasesusuario\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\clasescuentas\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\clasescuentas\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|c:\\users\\esdra\\desktop\\university\\q1-2024\\progra i\\proyecto progra 101\\proyectocajerocsharpsolution\\cajeroautomaticoapp\\clasesusuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\clasesusuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\cuentapremiun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\cuentapremiun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\cajeroautomaticoapp\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E5E48B-FA50-4330-8FBD-7F30CB51A39B}|CajeroAutomaticoApp\\CajeroAutomaticoApp.csproj|solutionrelative:cajeroautomaticoapp\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\Cuenta.cs",
-              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\Cuenta.cs",
-              "RelativeToolTip": "CajeroAutomaticoApp\\Cuenta.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAUwBcAAAAtAAAA",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\Program.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\Program.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\Program.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAYwA4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T01:15:47.675Z",
+              "WhenOpened": "2024-03-17T01:07:22.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesUsuario\\Usuario.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\ClasesUsuario\\Usuario.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesUsuario\\Usuario.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\ClasesUsuario\\Usuario.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T00:07:20.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesCuentas\\Cuenta.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\ClasesCuentas\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesCuentas\\Cuenta.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\ClasesCuentas\\Cuenta.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwBoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T17:24:16.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesUsuario\\Administrador.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\ClasesUsuario\\Administrador.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesUsuario\\Administrador.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\ClasesUsuario\\Administrador.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T15:50:33.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CuentaPremiun.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\CuentaPremiun.cs",
-              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\CuentaPremiun.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\CuentaPremiun.cs",
-              "RelativeToolTip": "CajeroAutomaticoApp\\CuentaPremiun.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAlAAAA",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesCuentas\\CuentaPremiun.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\ClasesCuentas\\CuentaPremiun.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesCuentas\\CuentaPremiun.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\ClasesCuentas\\CuentaPremiun.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwC8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T03:13:38.177Z",
+              "WhenOpened": "2024-03-17T00:31:52.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CuentaBasica.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\CuentaBasica.cs",
-              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\CuentaBasica.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\CuentaBasica.cs",
-              "RelativeToolTip": "CajeroAutomaticoApp\\CuentaBasica.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesCuentas\\CuentaBasica.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\ClasesCuentas\\CuentaBasica.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesCuentas\\CuentaBasica.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\ClasesCuentas\\CuentaBasica.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T00:56:22.014Z",
+              "WhenOpened": "2024-03-17T00:26:01.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\Program.cs",
-              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\Program.cs",
-              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\Program.cs",
-              "RelativeToolTip": "CajeroAutomaticoApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesUsuario\\Cliente.cs",
+              "RelativeDocumentMoniker": "CajeroAutomaticoApp\\ClasesUsuario\\Cliente.cs",
+              "ToolTip": "C:\\Users\\esdra\\Desktop\\University\\Q1-2024\\Progra I\\Proyecto Progra 101\\ProyectoCajeroCSharpSolution\\CajeroAutomaticoApp\\ClasesUsuario\\Cliente.cs",
+              "RelativeToolTip": "CajeroAutomaticoApp\\ClasesUsuario\\Cliente.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBAAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T02:10:40.838Z",
+              "WhenOpened": "2024-03-17T00:20:53.896Z",
               "EditorCaption": ""
             }
           ]
