@@ -51,7 +51,14 @@ namespace CajeroAutomaticoApp
                 Console.WriteLine("Transaccion no valida, consulte su saldo");
             }
         }
-       
+        public override string ToString()
+        {
+            string respuesta = "Id Cuenta: " + base.IdCuenta +
+                "\nNombre Propietario: " + base.UsuarioCliente +
+                "\nBalance: " + base.Saldo;
+            return respuesta;
+        }
+
 
 
     }

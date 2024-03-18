@@ -8,7 +8,7 @@ namespace CajeroAutomaticoApp.ClasesUsuario
 {
     public class Administrador : Usuario
     {
-        
+       
         public Administrador() { }
         public Administrador(string nombreCompleto,string numeroIdentidad,string correoElectronico,
             string nickName,string password,string fechaNacimiento,string fechaCreacionUsuario) 

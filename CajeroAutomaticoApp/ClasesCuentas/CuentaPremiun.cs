@@ -52,6 +52,13 @@ namespace CajeroAutomaticoApp
                 Console.WriteLine("La transaccion no pudo ser realizada, intente de nuevo");
             }
         }
-       
+        public override string ToString()
+        {
+            string respuesta = "Id Cuenta: " + base.IdCuenta +
+                "\nNombre Propietario: " + base.UsuarioCliente +
+                "\nBalance: " + base.Saldo;
+            return respuesta;
+        }
+
     }
 }

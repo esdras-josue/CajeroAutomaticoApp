@@ -15,6 +15,8 @@ namespace CajeroAutomaticoApp
            // crear listas como metoso para el administrador
             List<Cliente> CuentasBancarias = new List<Cliente>();
             List<Administrador> administrators = new List<Administrador>();
+            List<Cuenta> listaCuentas = new List<Cuenta>();
+
             int opcion = 0;
             // administrador por defecto
             Administrador admin = new Administrador();
@@ -105,6 +107,8 @@ namespace CajeroAutomaticoApp
         
         public static void CaseAdmi()
         {
+            List<Cliente> CuentasClientes = new List<Cliente>();//lista para agregar clientes
+            List<Cuenta> cuentasBancarias = new List<Cuenta>();
             int opcion = 0;
             do
             {
@@ -135,13 +139,39 @@ namespace CajeroAutomaticoApp
                         
                         Cliente cliente = new Cliente(nombre, numeroId, correoElectronico, nickName,
                             password, fechaNacimiento, fechaCreacionUsuaro);
-                        
+                        CuentasClientes.Add(cliente);// agregar cliente
 
+                        Console.WriteLine();
+                        Console.WriteLine("***********************");
                         break;
+
                     case 2:
                         Console.WriteLine();
                         Console.WriteLine("**************Eliminar Usuario**************");
+                        Console.WriteLine();
+                        Console.WriteLine("ingrese el nombre de usuario que desea eliminar:");
+                        string borrarUsuario = Console.ReadLine();
 
+                        bool estadoBorrar = false;
+
+                        foreach (Cliente clienteActual in CuentasClientes)
+                        {
+                            if (clienteActual.NickName.Equals(borrarUsuario))
+                            {
+                                estadoBorrar = true;
+                            }
+                        }
+                        if (!estadoBorrar)
+                        {
+                            Console.WriteLine("No se encontraron registros");
+                        }
+                        else
+                        {
+                            Cliente clienteTemporal = CuentasClientes.Find(c => c.NickName == borrarUsuario);
+                            CuentasClientes.Remove(clienteTemporal);
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine("***********************");
                         break;
                     case 3:
                         int opcionTipoCuenta = 0;
@@ -154,6 +184,7 @@ namespace CajeroAutomaticoApp
 
                         Console.WriteLine();
                         Console.WriteLine("**************Registro de Cuenta**************");
+                        Console.WriteLine();
                         Console.WriteLine("Ingrese su nombre de usuario:");
                         string nombreUsuario = Console.ReadLine();
                         Console.WriteLine("Monto inicial para crear la cuenta:");
@@ -169,12 +200,63 @@ namespace CajeroAutomaticoApp
                         {
                             CuentaBasica cuentaBasica = new CuentaBasica(nombreUsuario, monto, idCuenta,
                                idPropietario, fechaCreacion);
+                            cuentasBancarias.Add(cuentaBasica);
                         }
                         else if (opcionTipoCuenta == 2)
                         {
                             CuentaPremiun cuentaPremiun = new CuentaPremiun(nombreUsuario, monto, idCuenta,
                                 idPropietario, fechaCreacion);
+                            cuentasBancarias.Add(cuentaPremiun);
                         }
+                        Console.WriteLine();
+                        Console.WriteLine("***********************");
+                        break;
+
+                    case 4:
+                        Console.WriteLine();
+                        Console.WriteLine("**************Eliminar Cuenta**************");
+                        Console.WriteLine();
+                        Console.WriteLine("Ingrese el numero de cuenta que desea elimianar");
+                        string id = Console.ReadLine();
+
+                        bool estadocuentaBorrar = false;
+
+                        foreach (Cuenta cuentas in cuentasBancarias)
+                        {
+                            if (cuentas.IdCuenta.Equals(id))
+                            {
+                                estadocuentaBorrar = true;
+                            }
+                        }
+
+                        if (!estadocuentaBorrar)
+                        {
+                            Console.WriteLine("No se encontraron registros");
+                        }
+
+                        else
+                        {
+                            Cuenta temporal = cuentasBancarias.Find(c => c.IdCuenta == id);
+                            cuentasBancarias.Remove(temporal);
+                            Console.WriteLine("Eliminado con Exito..");
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine("***********************");
+                        break;
+
+                    case 5:
+                        Console.WriteLine("**************Reporte de Cuentas**************");
+                        Console.WriteLine();
+                        foreach (Cuenta cuentaActual in cuentasBancarias)
+                        {
+                            Console.WriteLine(cuentaActual.ToString());
+                        }
+                        Console.WriteLine();
+                        Console.WriteLine("***********************");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opcion no valida");
                         break;
                 }
 
