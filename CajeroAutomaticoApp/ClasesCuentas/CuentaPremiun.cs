@@ -33,7 +33,7 @@ namespace CajeroAutomaticoApp
             if(deposito > 0) 
             {
                 Saldo += deposito;
-                //Console.WriteLine("Deposito realizado exitosamente.");
+                Console.WriteLine("Deposito realizado exitosamente.");
             }
             else
             {
@@ -45,7 +45,7 @@ namespace CajeroAutomaticoApp
             if(Saldo > 1500)
             {
                 Saldo -= retiro;
-                //Console.WriteLine("Retiro realizado exitosamente.");
+                Console.WriteLine("Retiro realizado exitosamente.");
             }
             else
             {
