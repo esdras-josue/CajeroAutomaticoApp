@@ -8,6 +8,20 @@ namespace CajeroAutomaticoApp.ClasesUsuario
 {
     public class Administrador : Usuario
     {
+        private string tipoUsuario;
+        public string TipoUsuario
+        {
+            get
+            {
+                return tipoUsuario;
+
+            }
+            set
+            {
+                tipoUsuario = "Administrador";
+            }
+        }
+
        
         public Administrador() { }
         public Administrador(string nombreCompleto,string numeroIdentidad,string correoElectronico,

@@ -16,6 +16,7 @@ namespace CajeroAutomaticoApp.ClasesUsuario
         public string Password { get; set; }
         public string FechaNacimiento { get; set; }
         public string FechaCreacionUsuario { get; set; }
+        
         public Usuario() { }
         public Usuario(string nombreCompleto, string numeroIdentidad,string correoElectronico,
             string nickName, string password, string fechaNacimiento,string fechaCreacioUsuario)
@@ -31,9 +32,6 @@ namespace CajeroAutomaticoApp.ClasesUsuario
             FechaCreacionUsuario = fechaCreacioUsuario;
            
         }
-
-       
-        
 
     }
 }
