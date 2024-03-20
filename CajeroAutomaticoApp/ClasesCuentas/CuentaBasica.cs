@@ -32,7 +32,7 @@ namespace CajeroAutomaticoApp
             if (deposito > 0)
             {
                 Saldo += deposito;
-                //Console.WriteLine("Deposito exitoso");
+                Console.WriteLine("Deposito exitoso");
             }
             else
             {
@@ -44,7 +44,7 @@ namespace CajeroAutomaticoApp
             if (Saldo > 100)
             {
                 Saldo -= retiro;
-                //Console.WriteLine("Su retiro fue exitoso");
+                Console.WriteLine("Su retiro fue exitoso");
             }
             else
             {
@@ -54,7 +54,7 @@ namespace CajeroAutomaticoApp
         public override string ToString()
         {
             string respuesta = "Id Cuenta: " + base.IdCuenta +
-                "\nNombre Propietario: " + base.UsuarioCliente +
+                "\nNombre Propietario: " + base.IdPropietario +
                 "\nBalance: " + base.Saldo;
             return respuesta;
         }

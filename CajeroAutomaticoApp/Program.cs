@@ -10,7 +10,7 @@ namespace CajeroAutomaticoApp
 {
     public class Program
     {
-        // metodos para guardar los usuarios y cuentas
+        // listas para guardar los usuarios y cuentas
         public static List<Cuenta> CuentasBancarias = new List<Cuenta>();
         public static List<Cliente> listaUsuarioCliente = new List<Cliente>();
         public static List<Administrador> ListaAdministrador = new List<Administrador>();
@@ -18,7 +18,7 @@ namespace CajeroAutomaticoApp
         {
            
    
-            int opcion = 0;
+            bool continuar = true;
             // administrador por defecto
             Administrador admin = new Administrador();
             admin.NombreCompleto = "Esdras Peña";
@@ -28,29 +28,29 @@ namespace CajeroAutomaticoApp
             admin.Password = "topuser123".ToLower();
             admin.FechaNacimiento = "9/17/1999";
             admin.FechaCreacionUsuario = "3/17/2024";
-            ListaAdministrador.Add(admin);    
-            
+            ListaAdministrador.Add(admin);
 
+            
             do
             {
-                bool salir = false;
-
                 Console.WriteLine();
                 Console.WriteLine("Cajero Automatico Del Banco T1172");
                 Console.WriteLine();
-                Console.WriteLine("Inicio de Sesion");
+                Console.WriteLine("Iniciar Sesion");
+                Console.WriteLine("======================");
                 Console.WriteLine();
                 Console.WriteLine("Nombre de Usuario:");
                 string nombreUser = Console.ReadLine();
+
                 Console.WriteLine("Contraseña:");
                 string contraseña = Console.ReadLine();
 
-                // metodo para buscar el nombre de usuario y contraseña para loggearse
-                Cliente usuario = listaUsuarioCliente.Find(u => u.NickName == nombreUser && u.Password == contraseña);
-                if (usuario != null)
+                // metodo para buscar el nombre de usuario y contraseña para hacer log in
+                Cliente usuario = listaUsuarioCliente.Find(u => u.NickName == nombreUser && u.Password == contraseña); 
+                if (usuario != null)                                                                                        
                 {
                     Console.WriteLine();
-                    Console.WriteLine("***********************");
+                    Console.WriteLine("=================");
                     Console.WriteLine("Hola  " + usuario.NickName + " ,Bienvenido al Cajero Automatico Del Banco T1172");
                     CaseUser();      
                 }
@@ -60,29 +60,36 @@ namespace CajeroAutomaticoApp
                     if(administrador != null)
                     {
                         Console.WriteLine();
-                        Console.WriteLine("***********************");
+                        Console.WriteLine("=================");
                         Console.WriteLine("Hola " + administrador.NickName + " ,Bienvenido al Cajero Automatico Del Banco T1172");
                         Console.WriteLine();
                         CaseAdmi();
                     }
+                    else
+                    {
+                        Console.WriteLine("Credenciales Incorrectas.");
+                    }
                 }
-                 
+
+                Console.WriteLine("Desea Continuar?(s/n)");
+                string respuesta = Console.ReadLine();
+                continuar = respuesta.ToLower() == "s";
+
             }
-            while (opcion!=5);
-         
-           
+            while (continuar);
+
+
             Console.ReadKey();
-          
         }
 
-        
         public static void MenuUsuario()
         {
             Console.WriteLine("Menu\n");
             Console.WriteLine("1.Depositar" +
                 "\r\n2.Retirar" +
                 "\r\n3.Verificar Saldo" +
-                "\r\n4.Salir");
+                "\r\n4.Estado de Cuenta" +
+                "\r\n5.Salir");
         }
 
         public static void MenuAdmin()
@@ -97,8 +104,6 @@ namespace CajeroAutomaticoApp
         
         public static void CaseAdmi()
         {
-            //List<Cliente> CuentasClientes = new List<Cliente>();
-           // List<Cuenta> cuentasBancarias = new List<Cuenta>();
             int opcion = 0;
 
             do
@@ -111,7 +116,7 @@ namespace CajeroAutomaticoApp
                 {                  
                     case 1:
                         Console.WriteLine();
-                        Console.WriteLine("**************Registro de Usuario**************");
+                        Console.WriteLine("=================Registro de Usuario=================");
                         Console.WriteLine();
                         Console.WriteLine("Nombre Completo:");
                         string nombre = Console.ReadLine();
@@ -137,12 +142,12 @@ namespace CajeroAutomaticoApp
                         Console.WriteLine("Se agrego exitosamente.");
 
                         Console.WriteLine();
-                        Console.WriteLine("***********************");
+                        Console.WriteLine("=================");
                     break;
 
                     case 2:
                         Console.WriteLine();
-                        Console.WriteLine("**************Eliminar Usuario**************");
+                        Console.WriteLine("=================Eliminar Usuario=================");
                         Console.WriteLine();
                         Console.WriteLine("ingrese el nombre de usuario que desea eliminar:");
                         string borrarUsuario = Console.ReadLine();
@@ -167,7 +172,7 @@ namespace CajeroAutomaticoApp
                             Console.WriteLine("Se elimino exitosamente");
                         }
                         Console.WriteLine();
-                        Console.WriteLine("***********************");
+                        Console.WriteLine("=================");
                     break;
 
                     case 3:
@@ -180,7 +185,7 @@ namespace CajeroAutomaticoApp
                         opcionTipoCuenta = int.Parse(Console.ReadLine());
 
                         Console.WriteLine();
-                        Console.WriteLine("**************Registro de Cuenta**************");
+                        Console.WriteLine("=================Registro de Cuenta=================");
                         Console.WriteLine();
                         Console.WriteLine("nombre de usuario:");
                         string nombreUsuario = Console.ReadLine();
@@ -199,7 +204,6 @@ namespace CajeroAutomaticoApp
                                idPropietario, fechaCreacion);
                             CuentasBancarias.Add(cuentaBasica);
                             cuentaBasica.UsuarioCliente = new Cliente();
-                           // CuentasClientes.Add(cuentaBasica.UsuarioCliente);
 
                         }
                         else if (opcionTipoCuenta == 2)
@@ -209,12 +213,12 @@ namespace CajeroAutomaticoApp
                             CuentasBancarias.Add(cuentaPremiun);
                         }
                         Console.WriteLine();
-                        Console.WriteLine("***********************");
+                        Console.WriteLine("=================");
                     break;
 
                     case 4:
                         Console.WriteLine();
-                        Console.WriteLine("**************Eliminar Cuenta**************");
+                        Console.WriteLine("=================Eliminar Cuenta=================");
                         Console.WriteLine();
                         Console.WriteLine("Ingrese el numero de cuenta que desea elimianar");
                         string id = Console.ReadLine();
@@ -241,15 +245,16 @@ namespace CajeroAutomaticoApp
                             Console.WriteLine("Eliminado con Exito..");
                         }
                         Console.WriteLine();
-                        Console.WriteLine("***********************");
+                        Console.WriteLine("=================");
                     break;
 
-
                     case 5:
-                      
+                        Console.WriteLine("Gracias por usar nuestros servicios");
                     break;
 
                     default:
+                        Console.WriteLine();
+                        Console.WriteLine("=================");
                         Console.WriteLine("Opcion no valida");
                     break;
                 }
@@ -259,77 +264,99 @@ namespace CajeroAutomaticoApp
         }
         public static void CaseUser()
         {
-            //List<Cuenta> cuentasBancarias = new List<Cuenta>();
             int opcion = 0;
-            MenuUsuario();
-            Console.WriteLine();
-            opcion = int.Parse(Console.ReadLine());
-
-            switch (opcion) 
+            do
             {
-                case 1:
-                    Console.WriteLine();
-                    Console.WriteLine("*********Depositar*********");
-                    Console.WriteLine();
-                    Console.WriteLine("Ingrese ID de cuenta");
-                    string numeroCuenta = Console.ReadLine();
+                MenuUsuario();
+                Console.WriteLine();
+                opcion = int.Parse(Console.ReadLine());
 
-                    foreach (Cuenta cuentas in CuentasBancarias)
-                    {
-                        if (cuentas.IdCuenta.Equals(numeroCuenta))
-                        {
-                            Console.WriteLine("Ingrese la cantidad a depositar");
-                            double deposito = double.Parse(Console.ReadLine());
-                            cuentas.Depositar(deposito);
-                        }
-                    }
-                    Console.WriteLine(); 
-                    
-                break;
-
-                case 2:
-                    Console.WriteLine();
-                    Console.WriteLine("*********Retirar*********");
-                    Console.WriteLine();
-                    Console.WriteLine("Ingrese el numero de cuenta");
-                    numeroCuenta = Console.ReadLine();
-
-                    foreach (Cuenta cuentas in CuentasBancarias)
-                    {
-                        if (cuentas.IdCuenta.Equals(numeroCuenta))
-                        {
-                            Console.WriteLine("Ingrese la cantidad a retirar");
-                            double retiro = double.Parse(Console.ReadLine());
-                            cuentas.Retirar(retiro);
-                        }
-                    }
-                    Console.WriteLine();
-                break;
-
-                case 3:
-                    foreach (Cuenta cuentas in CuentasBancarias)
-                    {
+                switch (opcion)
+                {
+                    case 1:
                         Console.WriteLine();
-                        Console.WriteLine("*********Consulta de Saldo*********");
+                        Console.WriteLine("=================Depositar=================");
                         Console.WriteLine();
-                        Console.WriteLine("Ingrese el numero de cuenta");
+                        Console.WriteLine("Ingrese ID de cuenta");
+                        string numeroCuenta = Console.ReadLine();
+
+                        foreach (Cuenta cuentas in CuentasBancarias)
+                        {
+                            if (cuentas.IdCuenta.Equals(numeroCuenta))
+                            {
+                                Console.WriteLine("Ingrese la cantidad a depositar");
+                                double deposito = double.Parse(Console.ReadLine());
+                                cuentas.Depositar(deposito);
+                            }
+                        }
+                        Console.WriteLine("===================================================");
+                        Console.WriteLine();
+
+                    break;
+
+                    case 2:
+                        Console.WriteLine();
+                        Console.WriteLine("=================Retirar=================");
+                        Console.WriteLine();
+                        Console.WriteLine("Ingrese el ID de cuenta");
                         numeroCuenta = Console.ReadLine();
-                        if (cuentas.IdCuenta.Equals(numeroCuenta))
+
+                        foreach (Cuenta cuentas in CuentasBancarias)
                         {
-                            Console.WriteLine("Saldo Actual: " + cuentas.Saldo);   
+                            if (cuentas.IdCuenta.Equals(numeroCuenta))
+                            {
+                                Console.WriteLine("Ingrese la cantidad a retirar");
+                                double retiro = double.Parse(Console.ReadLine());
+                                cuentas.Retirar(retiro);
+                            }
                         }
-                    }
-                    Console.WriteLine();
-                break;
+                        Console.WriteLine("===================================================");
+                        Console.WriteLine();
+                    break;
 
-                case 4:
+                    case 3:
+                        foreach (Cuenta cuentas in CuentasBancarias)
+                        {
+                            Console.WriteLine();
+                            Console.WriteLine("=================Consulta de Saldo=================");
+                            Console.WriteLine();
+                            Console.WriteLine("Ingrese el ID de cuenta");
+                            numeroCuenta = Console.ReadLine();
+                            if (cuentas.IdCuenta.Equals(numeroCuenta))
+                            {
+                                Console.WriteLine("Saldo Actual: " + cuentas.Saldo);
+                            }
+                        }
+                        Console.WriteLine("===================================================");
+                        Console.WriteLine();
+                    break;
 
-                break;
+                    case 4:
+                        Console.WriteLine();
+                        Console.WriteLine("=================Reporte de Cuentas=================");
+                        Console.WriteLine();
+                        foreach (Cuenta cuentas in CuentasBancarias)
+                        {
+                            Console.WriteLine(cuentas.ToString());
+                            Console.WriteLine();
+                        }
+                        Console.WriteLine("===================================================");
+                        Console.WriteLine();
+                    break;
 
-                default:
-                    Console.WriteLine("Opcion no valida.");
-                break;
+                    case 5:
+                        Console.WriteLine("Gracias por usar nuestros servicios.");
+                    break;
+
+                    default:
+                        Console.WriteLine("===================================================");
+                        Console.WriteLine();
+                        Console.WriteLine("Opcion no valida.");
+                    break;
+                }
+
             }
+            while (opcion != 5);    
         }
     }
 }
