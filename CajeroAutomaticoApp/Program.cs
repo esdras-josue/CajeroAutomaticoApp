@@ -179,8 +179,8 @@ namespace CajeroAutomaticoApp
                         int opcionTipoCuenta = 0;
                         Console.WriteLine("Elija su opcion\n" +
                             "\n\r1.Cuenta Basica" +
-                            "\n\r2.Cuenta Premiun" +
-                            "\n\r3.Cancelar");
+                            "\n\r2.Cuenta Premiun");
+                            
 
                         opcionTipoCuenta = int.Parse(Console.ReadLine());
 
@@ -288,6 +288,10 @@ namespace CajeroAutomaticoApp
                                 double deposito = double.Parse(Console.ReadLine());
                                 cuentas.Depositar(deposito);
                             }
+                            else
+                            {
+                                Console.WriteLine("ID invalido");
+                            }
                         }
                         Console.WriteLine("===================================================");
                         Console.WriteLine();
@@ -309,6 +313,10 @@ namespace CajeroAutomaticoApp
                                 double retiro = double.Parse(Console.ReadLine());
                                 cuentas.Retirar(retiro);
                             }
+                            else
+                            {
+                                Console.WriteLine("ID invalido");
+                            }
                         }
                         Console.WriteLine("===================================================");
                         Console.WriteLine();
@@ -325,6 +333,10 @@ namespace CajeroAutomaticoApp
                             if (cuentas.IdCuenta.Equals(numeroCuenta))
                             {
                                 Console.WriteLine("Saldo Actual: " + cuentas.Saldo);
+                            }
+                            else
+                            {
+                                Console.WriteLine("ID invalido");
                             }
                         }
                         Console.WriteLine("===================================================");

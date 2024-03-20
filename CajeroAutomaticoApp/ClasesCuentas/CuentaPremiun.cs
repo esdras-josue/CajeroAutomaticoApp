@@ -42,7 +42,7 @@ namespace CajeroAutomaticoApp
         }
         public override void Retirar(double retiro)
         {
-            if(Saldo > 1500)
+            if(Saldo - retiro >= 1500 && retiro > 0) // la cuenta premium debe mantener un saldo de 1500.00lps
             {
                 Saldo -= retiro;
                 Console.WriteLine("Retiro realizado exitosamente.");

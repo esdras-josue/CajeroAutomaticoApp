@@ -19,7 +19,8 @@ namespace CajeroAutomaticoApp
             
             if (saldo >= 100)
             {
-                Saldo += saldo;
+                Saldo = saldo;
+                Console.WriteLine("Su saldo es: " + Saldo + "lps.");
             }
             else
             {
@@ -41,7 +42,7 @@ namespace CajeroAutomaticoApp
         }
         public override void Retirar(double retiro)
         {
-            if (Saldo > 100)
+            if (Saldo - retiro >= 100 && retiro > 0) // la cuenta basica debe mantener un saldo minimo de 100.00lps
             {
                 Saldo -= retiro;
                 Console.WriteLine("Su retiro fue exitoso");
@@ -55,7 +56,7 @@ namespace CajeroAutomaticoApp
         {
             string respuesta = "Id Cuenta: " + base.IdCuenta +
                 "\nNombre Propietario: " + base.IdPropietario +
-                "\nBalance: " + base.Saldo;
+                "\nBalance: " + base.Saldo + "lps.";
             return respuesta;
         }
 
