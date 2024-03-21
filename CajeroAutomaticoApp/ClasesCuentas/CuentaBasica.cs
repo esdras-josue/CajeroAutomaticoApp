@@ -55,7 +55,7 @@ namespace CajeroAutomaticoApp
         public override string ToString()
         {
             string respuesta = "Id Cuenta: " + base.IdCuenta +
-                "\nNombre Propietario: " + base.IdPropietario +
+                "\nNombre Propietario: " + base.Nombre +
                 "\nBalance: " + base.Saldo + "lps.";
             return respuesta;
         }

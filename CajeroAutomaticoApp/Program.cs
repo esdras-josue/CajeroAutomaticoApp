@@ -6,6 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+* grupo 4:
+* Esdras Josue Peña
+* Juan Carlos Lopez
+* Selvin Clemente Rivera
+*/
 namespace CajeroAutomaticoApp
 {
     public class Program
@@ -24,8 +30,8 @@ namespace CajeroAutomaticoApp
             admin.NombreCompleto = "Esdras Peña";
             admin.NumeroIdentidad = "1621200000375";
             admin.CorreoElectronico = "esdraspea@gmail.com";
-            admin.NickName = "adminesdras".ToLower();
-            admin.Password = "topuser123".ToLower();
+            admin.NickName = "admin".ToLower();
+            admin.Password = "topuser123";
             admin.FechaNacimiento = "9/17/1999";
             admin.FechaCreacionUsuario = "3/17/2024";
             ListaAdministrador.Add(admin);
@@ -45,7 +51,7 @@ namespace CajeroAutomaticoApp
                 Console.WriteLine("Contraseña:");
                 string contraseña = Console.ReadLine();
 
-                // metodo para buscar el nombre de usuario y contraseña para hacer log in
+                // funcion para validar  el nombre de usuario y contraseña para hacer log in en caso de ser cliente
                 Cliente usuario = listaUsuarioCliente.Find(u => u.NickName == nombreUser && u.Password == contraseña); 
                 if (usuario != null)                                                                                        
                 {
@@ -56,6 +62,7 @@ namespace CajeroAutomaticoApp
                 }
                 else
                 {
+                    // funcion para validar  el nombre de usuario y contraseña para hacer log in en caso de ser administrador
                     Administrador administrador = ListaAdministrador.Find(a => a.NickName == nombreUser && a.Password == contraseña);
                     if(administrador != null)
                     {
