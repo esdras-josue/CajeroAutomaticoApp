@@ -14,19 +14,23 @@ namespace CajeroAutomaticoApp
         public string IdCuenta { get; set; }
         public string IdPropietario { get; set; }
         public string FechaCreacion { get; set; }
-        public Cliente UsuarioCliente { get; set; }
         public string Nombre {  get; set; }
+
+        Cliente Titular = new Cliente();
+        public Cliente Cliente { get; set; }
         public Cuenta() { }
 
         public Cuenta(string nombre,double saldo,string idCuenta,
             string idPropietario, string fecha)
+            
         { 
             //UsuarioCliente = usuarioCliente;
             Nombre = nombre;
             Saldo = saldo;
             IdCuenta = idCuenta;
             IdPropietario = idPropietario;
-            FechaCreacion = fecha;   
+            FechaCreacion = fecha;
+            
         }
 
         public abstract void Depositar(double deposito);

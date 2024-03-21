@@ -22,8 +22,6 @@ namespace CajeroAutomaticoApp
         public static List<Administrador> ListaAdministrador = new List<Administrador>();
         static void Main(string[] args)
         {
-           
-   
             bool continuar = true;
             // administrador por defecto
             Administrador admin = new Administrador();
@@ -143,9 +141,7 @@ namespace CajeroAutomaticoApp
                         Cliente cliente = new Cliente(nombre, numeroId, correoElectronico, nickName,
                             password, fechaNacimiento, fechaCreacionUsuaro);
                         listaUsuarioCliente.Add(cliente);// agregar cliente
-                        listaUsuarioCliente.Add(cliente);
-
-
+                       
                         Console.WriteLine("Se agrego exitosamente.");
 
                         Console.WriteLine();
@@ -205,13 +201,14 @@ namespace CajeroAutomaticoApp
                         Console.WriteLine("Fecha de creacion de la cuenta");
                         string fechaCreacion = Console.ReadLine();
 
+
                         if (opcionTipoCuenta == 1)
                         {
                             CuentaBasica cuentaBasica = new CuentaBasica(nombreUsuario, monto, idCuenta,
                                idPropietario, fechaCreacion);
                             CuentasBancarias.Add(cuentaBasica);
-                            cuentaBasica.UsuarioCliente = new Cliente();
-
+                            
+     
                         }
                         else if (opcionTipoCuenta == 2)
                         {

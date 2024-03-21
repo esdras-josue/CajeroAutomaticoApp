@@ -59,8 +59,5 @@ namespace CajeroAutomaticoApp
                 "\nBalance: " + base.Saldo + "lps.";
             return respuesta;
         }
-
-
-
     }
 }
